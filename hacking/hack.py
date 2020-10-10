@@ -75,8 +75,7 @@ class PasswordHacker:
 
 def main():
     args = parse_args()
-    hacker = PasswordHacker(args, 'C:\\Users\\Sudhanshu\\PycharmProjects\\Password Hacker\\Password '
-                                  'Hacker\\task\\hacking\\logins.txt')
+    hacker = PasswordHacker(args, 'logins.txt') # "logins.txt" doesn't work then provide full path 
     hacker.process()
 
 
